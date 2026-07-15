@@ -1,0 +1,78 @@
+---
+title: 磁矩
+tags:
+  - 原子物理
+  - 磁矩
+  - 朗德g因子
+created: 2026-05-24
+---
+
+## 磁矩
+### 轨道磁矩
+原子的电子做轨道运动，产生轨道磁矩
+$$\vec{\mu_{l}} = - \frac{e}{2m} \vec{p_{l}}$$
+
+$$
+\mu_{l}=\frac{e}{2m} p_{l} = \sqrt{l(l+1)} \frac{eh}{4\pi m} = \sqrt{(l(l+1))}\mu_{B}
+$$
+这里的$\mu_{B}$就是**玻尔磁子**，大小为9.27 times 10e-24
+
+### 自旋磁矩
+$$
+\vec{\mu_{s}} = -\frac{e}{m} \vec{p_{s}}
+$$
+$$
+\mu_{s}=\frac{e}{m} p_{s} = \sqrt{ \frac{1}{2} \left( \frac{1}{2} +1 \right) } \frac{eh}{2\pi m}=\sqrt{3}\mu_{B}
+$$
+### 总磁矩
+$\vec{\mu_{s}}$和$\vec{\mu_{l}}$合成了$\vec{\mu_{j}}$，即总磁矩。由于自旋的旋磁比是轨道的 2 倍，$\vec{\mu_{j}}$ 与 $\vec{p_{j}}$ 方向不重合。利用矢量模型，将 $\vec{\mu_{l}}$ 和 $\vec{\mu_{s}}$ 投影到 $\vec{p_{j}}$ 方向上：
+
+$$
+\mu_{j} = \frac{e}{2m} \frac{\vec{p_{j}} \cdot (\vec{p_{l}} + 2\vec{p_{s}})}{p_{j}}
+$$
+
+由余弦定理（矢量模型中 $\vec{p_{l}}$、$\vec{p_{s}}$ 绕 $\vec{p_{j}}$ 进动）：
+
+$$
+\vec{p_{j}} \cdot \vec{p_{l}} = \frac{p_{j}^{2} + p_{l}^{2} - p_{s}^{2}}{2}, \quad
+\vec{p_{j}} \cdot \vec{p_{s}} = \frac{p_{j}^{2} + p_{s}^{2} - p_{l}^{2}}{2}
+$$
+
+代入得：
+
+$$
+\begin{aligned}
+\mu_{j} &= \frac{e}{2m} \frac{1}{p_{j}} \left[ \frac{p_{j}^{2} + p_{l}^{2} - p_{s}^{2}}{2} + 2 \cdot \frac{p_{j}^{2} + p_{s}^{2} - p_{l}^{2}}{2} \right] \\[4pt]
+&= \frac{e}{2m} \frac{3p_{j}^{2} + p_{s}^{2} - p_{l}^{2}}{2p_{j}}
+\end{aligned}
+$$
+
+将 $p_{l} = \hbar\sqrt{l(l+1)}$、$p_{s} = \hbar\sqrt{s(s+1)}$（$s = 1/2$，故 $s(s+1) = 3/4$）、$p_{j} = \hbar\sqrt{j(j+1)}$ 代入：
+
+$$
+\mu_{j} = \frac{e\hbar}{2m} \frac{3j(j+1) + \frac{3}{4} - l(l+1)}{2\sqrt{j(j+1)}}
+$$
+
+写成矢量形式：
+
+$$
+\vec{\mu_{j}} = -g_{j} \frac{e}{2m} \vec{p_{j}}
+$$
+
+其中 $g_{j}$ 为 **朗德 g 因子**（Landé g-factor）：
+
+$$
+g_{j} = 1 + \frac{j(j+1) + s(s+1) - l(l+1)}{2j(j+1)}
+$$
+
+对于单电子（$s = 1/2$，$s(s+1) = 3/4$）：
+
+$$
+g_{j} = 1 + \frac{j(j+1) + \frac{3}{4} - l(l+1)}{2j(j+1)}
+$$
+
+总磁矩的大小为：
+
+$$
+\mu_{j} = g_{j} \sqrt{j(j+1)} \, \mu_{B}
+$$

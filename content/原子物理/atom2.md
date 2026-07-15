@@ -1,0 +1,7 @@
+![[atom2.png]] ![[atom2-1.png]] ![[atom2-2.png]] ![[atom2-3.png]]
+
+类氢离子的差异 ![[atom2-4.png]]
+折合质量微小差异：![[atom2-5.png]]
+综上 He 离子 毕克林系和 H 离子巴尔末系的区别 ![[atom2-6.png]]
+
+两个实验：![[atom2-7.png]] ![[atom2-8.png]] ![[atom2-9.png]] ![[atom2-10.png]] ![[atom2-11.png]]
