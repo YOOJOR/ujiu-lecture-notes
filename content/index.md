@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: Welcome to UJIU's note
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+本网站基于Quartz5搭建，用于存放我的各科笔记，便于复习以及交流学习
+在左侧进行浏览笔记内容，可以进行搜索
